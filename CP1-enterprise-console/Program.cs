@@ -237,6 +237,8 @@ object cadastrarConta()
                     return contaPoupanca;
 
                 case 3:
+                    ContaSalario contaSalarioTeste = new ContaSalario("001", "002", 2000);
+
                     ContaSalario contaSalario = new();
 
                     Console.WriteLine("Digite a agência: ");
